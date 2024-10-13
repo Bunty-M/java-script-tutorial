@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variable in JS</title>
+    <style>
+      #one {
+        background-color: lightgreen;
+        color: black;
+        border-radius: 15px;
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #three {
+        background-color: lightgreen;
+        color: black;
+        border-radius: 15px;
+        border: none;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      #two {
+        border-color: solid black;
+        background-color: white;
+        color: black;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      let quantity = 0; var name='Bunty';
+      console.log(name);
+      document.querySelector('.qa').innerHTML(name);
+    //   document.querySelector('h1').innerText=`your Bag has ${quantity}`;
+    </script>
+    <button id="one" onclick="quantity+=1;  document.querySelector('h1').innerText=`your Bag has ${quantity}`;">Add to Bag</button>
+    <button id="two" onclick="quantity-=1;document.querySelector('.four').innerText=`your bag has ${quantity}`">Move to Wishlist</button>
+    <button id="three" onclick="quantity+=2;document.querySelector('h1').innerText=`your bad has ${quantity}`">Add 1+1 saleitem</button>
+    <h1 class="four"> </h1>
+    <h1 class="qa"></h1>
+  </body>
+</html>

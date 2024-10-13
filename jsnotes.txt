@@ -1,0 +1,19 @@
+BODMAS-(),order,/,*,+,-
+ JS follows bodmas rule
+ it moves from right to left
+
+Math.round(21232.78)-is used to round a value
+
+document.body.innerHTML=('this xwsd')
+it is used to display the string new blank page
+
+`₹ ${((1*100)+(2*10)+(1*30))}` how to  include the rupee value in a su=inngle string 
+
+16 Query Selector
+1. getEIementById: Finds one element by its ID.
+ex:document.getElementById('one')
+2. getEIementsByClassName: Finds elements by their class, returnsa list.
+ex:document.getElementsByClassName('two')
+3. querySelector• Finds the first element that matches a CSS selector.
+ex:document.querySelector('h2')
+4. Purpose: To interact with or modify webpage element
